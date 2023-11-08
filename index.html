@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYODelish</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Krona+One&family=Lexend:wght@300&family=Londrina+Solid&family=Margarine&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="nav">
+        <div id="leftnav">
+            <img src="assets/logo.png" id="logo" alt="logo">
+            <div id="webdes">
+                <p id="webname">MYODelish</p>
+                <p id="caption">Where Every Meal is a Masterpiece.</p>
+            </div>
+        </div>
+        <div id="rightnav">
+            <p id="username">Mugunthan</p>
+            <img id="icon" src="assets/profile.png" alt="">
+        </div>
+
+    </nav>
+    <div id="ingredients">
+
+        <span id="closebtn">X</span>
+            <p>Ingredients</p>
+        <div id="ingredient-back">
+            <ol id="ingredients-list">
+
+            </ol>
+        </div>
+    </div>
+    <div id="searchbar">
+        <input id="input" placeholder="Start the Feast Right!" type="text">
+        <img id="searchicon" src="assets/searchicon.png" alt="">
+    </div>
+    <div id="randomMain" onclick="openIngredients()">
+        <div id="randomSub">
+            <img id="randomimg" src="" alt="">
+        </div>
+        <div id="randomSub2">
+            <p>The Meal You Crave For</p>
+            <p id="dish"></p>
+            <p id="Category">Category :<span id="Category1"></span></p>
+        </div>
+    </div>
+    <div id="dishes-container"></div>
+</body>
+<script src="script.js"></script>
+
+</html>
